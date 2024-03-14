@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+
+    background: #F2F2F2 ;
+}
+
+mat-label{
+    background: #fff;
+    color: black;
+}
+
+mat-select{
+    background: #fff;
+}
+
+mat-option{
+    background: white;
+}
+
+.mat-mdc-text-field-wrapper.mdc-text-field.mdc-text-field--filled {
+    background: white;
+    border: 1px solid black;
+    width: 350px;
+}
+
+div.mat-mdc-select-panel {
+    width: 100%;
+    max-height: 275px;
+    outline: 0;
+    overflow: auto;
+    padding: 4px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: static;
+    background-color: #ffffff!important;
+    
+}
+
+.mat-mdc-option {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #0c0c0c!important;
+    border-bottom: 1px solid black;
+    font-family: var(--mat-option-label-text-font);
+    line-height: var(--mat-option-label-text-line-height);
+    font-size: var(--mat-option-label-text-size);
+    letter-spacing: var(--mat-option-label-text-tracking);
+    font-weight: var(--mat-option-label-text-weight);
+    min-height: 48px;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+    color: var(--mdc-protected-button-label-text-color);
+    width: 190px;
+    background: #E20F0F;
+}
+
+.mat-mdc-form-field-infix {
+    color: black!important;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    color: rgb(0 0 0 / 87%)!important;
+}
+
+.mat-mdc-select {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(0 0 0 / 87%);
+    font-family: var(--mat-select-trigger-text-font);
+    line-height: var(--mat-select-trigger-text-line-height);
+    font-size: var(--mat-select-trigger-text-size);
+    font-weight: var(--mat-select-trigger-text-weight);
+    letter-spacing: var(--mat-select-trigger-text-tracking);
+}
